@@ -97,11 +97,12 @@ h1{
     justify-content: space-between;
     margin: 0;
     padding-bottom: 300px;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 #works p{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto 50px;
 }
 
 #works a{
@@ -118,7 +119,7 @@ h1{
 .work1{
     background-image: url(./images/image-background-card1.jpg);
     background-size: cover;
-    min-height: 450px;
+    min-height: 420px;
     width: 30%;
 
 }
@@ -129,7 +130,7 @@ h1{
 .work2{
     background-image: url(./images/image-background-card2.jpg);
     background-size: cover;
-    min-height: 450px;
+    min-height: 420px;
     width: 30%;
 }
 .work2:hover{
@@ -138,7 +139,7 @@ h1{
 .work3{
     background-image: url(./images/image-background-card3.jpg);
     background-size: cover;
-    min-height: 450px;
+    min-height: 420px;
     width: 30%;
 }
 .work3:hover{
@@ -176,17 +177,17 @@ a:hover{
 
     .work1{
         width: 47%;
-        min-height: 120px;
+        min-height: 200px;
     }
     .work2{
         width: 47%;
-        min-height: 120px;
+        min-height: 200px;
 
 
     }
     .work3{
         width: 47%;
-        min-height: 120px;
+        min-height: 200px;
 
         margin-top: 45px;
 
