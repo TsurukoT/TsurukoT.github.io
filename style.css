@@ -1,0 +1,223 @@
+
+body{
+    /* background-color: #e3e5e7; */
+    background-image: url(images/image-background-grey.jpg);
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+.container{
+    /* width: 1440px; */
+    min-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header {
+    background-color: #22cccc;
+    min-height: 180px;
+    /* width: 1024px; */
+    color: #343f4b;
+
+}
+
+.name{
+    color: white;
+    font-size: 70px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: 3px solid #d0f5f5;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+nav a{
+    padding: 10px 20px;
+    font-size: 30px;
+    text-decoration: none;
+     font-weight: 550; 
+    color: #343f4b;
+}
+
+a{
+    font-family: 'Bree Serif', serif;
+}
+
+nav a:hover{
+    color: #5edddd;
+    background-color: rgba(255, 255, 255, 0.9);
+} 
+
+
+main{
+    margin: 0;
+    background-color:rgba(255, 255, 255, 0.7);
+    min-height: 700px;
+    color: #343f4b;
+    text-align: center;
+}
+
+.maincontent{
+    padding: 100px 300px 0px 300px;
+    font-size: 25px;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+
+}
+
+
+/* p{
+    font-size: 20px;
+} */
+.workcontent{
+    padding: 100px 150px 0px 150px;
+}
+h1{
+    margin: 0;
+    padding-bottom: 30px;
+    font-family: 'Bree Serif', serif;
+}
+
+#works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding-bottom: 300px;
+    font-size: 25px;
+}
+
+#works p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#works a{
+    color: white;
+    text-decoration: none;
+}
+
+#works a:hover{
+    color: #92e7e7;
+}
+
+
+
+.work1{
+    background-image: url(./images/image-background-card1.jpg);
+    background-size: cover;
+    min-height: 450px;
+    width: 30%;
+
+}
+
+.work1:hover{
+    opacity: 0.8;
+}
+.work2{
+    background-image: url(./images/image-background-card2.jpg);
+    background-size: cover;
+    min-height: 450px;
+    width: 30%;
+}
+.work2:hover{
+    opacity: 0.8;
+}
+.work3{
+    background-image: url(./images/image-background-card3.jpg);
+    background-size: cover;
+    min-height: 450px;
+    width: 30%;
+}
+.work3:hover{
+    opacity: 0.8;
+}
+
+footer{
+    background-color: rgb(29, 29, 34);
+    padding: 25px 0px 50px 0px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 35px;
+    color:  white;
+    text-decoration: none;
+}
+
+footer a{
+    color:  white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px){
+    .maincontent{
+        padding: 70px 150px 0px 150px;
+        font-size: 25px;
+    }
+
+    .workcontent{
+        padding: 100px 100px 0px 100px;
+    }
+
+    .work1{
+        width: 47%;
+        min-height: 120px;
+    }
+    .work2{
+        width: 47%;
+        min-height: 120px;
+
+
+    }
+    .work3{
+        width: 47%;
+        min-height: 120px;
+
+        margin-top: 45px;
+
+    }
+
+}
+
+@media(max-width: 576px){
+    .maincontent{
+        padding: 70px 20px 0px 20px;
+        font-size: 25px;
+    }
+
+    .workcontent{
+        padding: 100px 50px 0px 50px;
+    }
+
+    .work1{
+        width: 100%;
+    }
+    .work2{
+        width: 100%;
+        margin-top: 45px;
+
+    }
+    .work3{
+        width: 100%;
+
+    }
+
+
+}
+
+
