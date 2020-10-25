@@ -121,6 +121,7 @@ h1{
     background-size: cover;
     min-height: 420px;
     width: 30%;
+    position: relative;
 
 }
 
@@ -132,6 +133,7 @@ h1{
     background-size: cover;
     min-height: 420px;
     width: 30%;
+    position: relative;
 }
 .work2:hover{
     opacity: 0.8;
@@ -141,11 +143,17 @@ h1{
     background-size: cover;
     min-height: 420px;
     width: 30%;
+    position: relative;
 }
 .work3:hover{
     opacity: 0.8;
 }
 
+i{
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+}
 footer{
     background-color: rgb(29, 29, 34);
     padding: 25px 0px 50px 0px;
@@ -177,25 +185,24 @@ a:hover{
 
     .work1{
         width: 47%;
-        min-height: 200px;
+        min-height: 400px;
     }
     .work2{
         width: 47%;
-        min-height: 200px;
+        min-height: 400px;
 
 
     }
     .work3{
         width: 47%;
-        min-height: 200px;
-
+        min-height: 400px;
         margin-top: 45px;
 
     }
 
 }
 
-@media(max-width: 576px){
+@media(max-width: 650px){
     .maincontent{
         padding: 70px 20px 0px 20px;
         font-size: 25px;
